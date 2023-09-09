@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-09T22:42:51 IST" name="Surefire suite" finished-at="2023-09-09T22:43:19 IST" duration-ms="27683">
+    <groups>
+    </groups>
+    <test started-at="2023-09-09T22:42:51 IST" name="Surefire test" finished-at="2023-09-09T22:43:19 IST" duration-ms="27683">
+      <class name="api.test.UserTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:api.test.UserTests@3c9d0b9d]" started-at="2023-09-09T22:43:06 IST" name="setUp" finished-at="2023-09-09T22:43:06 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="testPostUser()[pri:1, instance:api.test.UserTests@3c9d0b9d]" started-at="2023-09-09T22:43:06 IST" name="testPostUser" finished-at="2023-09-09T22:43:13 IST" duration-ms="7008" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testPostUser -->
+        <test-method signature="getUser()[pri:2, instance:api.test.UserTests@3c9d0b9d]" started-at="2023-09-09T22:43:13 IST" name="getUser" finished-at="2023-09-09T22:43:16 IST" duration-ms="2102" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getUser -->
+        <test-method signature="testUpdateUser()[pri:3, instance:api.test.UserTests@3c9d0b9d]" started-at="2023-09-09T22:43:16 IST" name="testUpdateUser" finished-at="2023-09-09T22:43:18 IST" duration-ms="2434" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+        <test-method signature="testDeleteUserByName()[pri:4, instance:api.test.UserTests@3c9d0b9d]" started-at="2023-09-09T22:43:18 IST" name="testDeleteUserByName" finished-at="2023-09-09T22:43:19 IST" duration-ms="1178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUserByName -->
+      </class> <!-- api.test.UserTests -->
+      <class name="api.test.DDTests">
+        <test-method signature="testAllPostRequests()[pri:1, instance:api.test.DDTests@6b19b79]" started-at="2023-09-09T22:42:52 IST" name="testAllPostRequests" finished-at="2023-09-09T22:43:02 IST" duration-ms="10146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAllPostRequests -->
+        <test-method signature="testDeleteRequest()[pri:2, instance:api.test.DDTests@6b19b79]" started-at="2023-09-09T22:43:02 IST" name="testDeleteRequest" finished-at="2023-09-09T22:43:06 IST" duration-ms="4728" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteRequest -->
+      </class> <!-- api.test.DDTests -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>
